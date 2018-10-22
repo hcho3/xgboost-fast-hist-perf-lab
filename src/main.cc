@@ -66,9 +66,6 @@ int main(int argc, char** argv) {
   // Compute histograms
   tstart = dmlc::GetTime();
   for (int i = 0; i < num_instance_set; ++i) {
-    if (i % 100 == 0) {
-      LOG(INFO) << "Computing gradient histogram for instance set " << i;
-    }
     hist_builder.BuildHist(gpair, instance_set[i], gmat, &histogram[i]);
   }
   LOG(INFO) << "Gradient histograms computed in " << (dmlc::GetTime() - tstart) << " seconds";
