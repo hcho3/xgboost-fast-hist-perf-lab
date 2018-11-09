@@ -52,14 +52,14 @@ Some background:
 
 * For full control over the compilation flags, specify `CMAKE_CXX_FLAGS_RELEASE`:
   ```bash
-  cmake -DCMAKE_CXX_FLAGS_RELEASE="-Ofast -DNDEBUG -march=native -mtune=native" ..
+  cmake -DCMAKE_CXX_FLAGS_RELEASE="-O3 -g -DNDEBUG -march=native" ..
   ```
-  This give you full control over the optimization flags. Here, we are compiling with `-Ofast -DNDEBUG -march=native -mtune=native` flags.
+  This give you full control over the optimization flags. Here, we are compiling with `-O3 -g -DNDEBUG -march=native` flags.
 
   You can check whether they are applied using `make VERBOSE=1` and looking at the C++ compilation lines for the existence of the flags you used:
 
   ```bash
-  /usr/bin/c++   -I/home/ubuntu/xgboost-fast-hist-perf-lab/include  -Ofast -DNDEBUG -march=native -mtune=native
+  /usr/bin/c++   -I/home/ubuntu/xgboost-fast-hist-perf-lab/include  -O3 -g -DNDEBUG -march=native
       -fopenmp -std=gnu++11 -o CMakeFiles/perflab.dir/src/main.cc.o
       -c /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc
   ```
