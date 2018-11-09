@@ -59,7 +59,7 @@ Some background:
   You can check whether they are applied using `make VERBOSE=1` and looking at the C++ compilation lines for the existence of the flags you used:
 
   ```bash
-  /usr/bin/c++   -I/home/ubuntu/xgboost-fast-hist-perf-lab/include  -O3 -DNDEBUG -march=native -mtune=native
+  /usr/bin/c++   -I/home/ubuntu/xgboost-fast-hist-perf-lab/include  -Ofast -DNDEBUG -march=native -mtune=native
       -fopenmp -std=gnu++11 -o CMakeFiles/perflab.dir/src/main.cc.o
       -c /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc
   ```
