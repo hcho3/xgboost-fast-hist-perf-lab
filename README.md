@@ -30,8 +30,6 @@ make
 Running with different number of threads should produce the following trend of performance:
 ![Performance scaling on C5.9xlarge](./scaling.png)
 
-Note: this was done without using compiler optimizations.
-
 # What this script does
 The script reads from record.tar.bz2, which was processed from the [Bosch dataset](https://www.kaggle.com/c/bosch-production-line-performance/data).
 Its job is to compute histograms for gradient pairs, where each bin of histogram is a partial sum.
@@ -42,24 +40,26 @@ Some background:
 * In order to find optimal splits for decision trees, we compute a **histogram** of gradients. Each bin of the histogram stands for a range of feature values. The value of the bin is given by the sum of gradients corresponding to the data points lying inside the range.
 * In each boosting iteration, we have to compute multiple histograms, each histogram corresponding to a set of instances.
 
-# Setup for Profiling
+# Setting build types
 
-For profiling, you must compile perflab as if you were tuning for maximum performance. You should, however, add debug symbols, like the following:
+* By default, 'Release' build type will be used, with flags `-O3 -DNDEBUG`.
 
-```bash
-cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo ..
-```
-This compiles with the following flags: `-O2 -g -DNDEBUG`
+* For perfiling, you may want to add debug symbols by choosing 'RelWithDebInfo' build type instead:
+  ```bash
+  cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo ..
+  ```
+  This build type uses the following flags: `-O2 -g -DNDEBUG`.
 
-For full control over the compilation flags, use the following instead:
+* For full control over the compilation flags, specify `CMAKE_CXX_FLAGS_RELEASE`:
+  ```bash
+  cmake -DCMAKE_CXX_FLAGS_RELEASE="-Ofast -DNDEBUG -march=native -mtune=native" ..
+  ```
+  This give you full control over the optimization flags. Here, we are compiling with `-Ofast -DNDEBUG -march=native -mtune=native` flags.
 
-```bash
-cmake -DCMAKE_CXX_FLAGS="-O3 -g -DNDEBUG -march=native" ..
-```
-This leaves you full control over the optimization flags. Here, we are compiling with `-O3 -g -DNDEBUG -march=native` flags.
+  You can check whether they are applied using `make VERBOSE=1` and looking at the C++ compilation lines for the existence of the flags you used:
 
-You can check whether they are applied using `make VERBOSE=1` and looking at the c++ compilation lines for the existence of the flags you used:
-
-```bash
-/usr/bin/c++  -O3 -g -DNDEBUG -march=native -fopenmp  -rdynamic CMakeFiles/perflab.dir/src/build_hist.cc.o CMakeFiles/perflab.dir/src/main.cc.o  -o ../perflab 
-```
+  ```bash
+  /usr/bin/c++   -I/home/ubuntu/xgboost-fast-hist-perf-lab/include  -O3 -DNDEBUG -march=native -mtune=native
+      -fopenmp -std=gnu++11 -o CMakeFiles/perflab.dir/src/main.cc.o
+      -c /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc
+  ```
