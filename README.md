@@ -39,3 +39,27 @@ Some background:
 * There are as many gradient pairs as there are instances in a training dataset.
 * In order to find optimal splits for decision trees, we compute a **histogram** of gradients. Each bin of the histogram stands for a range of feature values. The value of the bin is given by the sum of gradients corresponding to the data points lying inside the range.
 * In each boosting iteration, we have to compute multiple histograms, each histogram corresponding to a set of instances.
+
+# Setting build types
+
+* By default, 'Release' build type will be used, with flags `-O3 -DNDEBUG`.
+
+* For perfiling, you may want to add debug symbols by choosing 'RelWithDebInfo' build type instead:
+  ```bash
+  cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo ..
+  ```
+  This build type uses the following flags: `-O2 -g -DNDEBUG`.
+
+* For full control over the compilation flags, specify `CMAKE_CXX_FLAGS_RELEASE`:
+  ```bash
+  cmake -DCMAKE_CXX_FLAGS_RELEASE="-O3 -g -DNDEBUG -march=native" ..
+  ```
+  This give you full control over the optimization flags. Here, we are compiling with `-O3 -g -DNDEBUG -march=native` flags.
+
+  You can check whether they are applied using `make VERBOSE=1` and looking at the C++ compilation lines for the existence of the flags you used:
+
+  ```bash
+  /usr/bin/c++   -I/home/ubuntu/xgboost-fast-hist-perf-lab/include  -O3 -g -DNDEBUG -march=native
+      -fopenmp -std=gnu++11 -o CMakeFiles/perflab.dir/src/main.cc.o
+      -c /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc
+  ```

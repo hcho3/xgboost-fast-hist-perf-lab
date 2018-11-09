@@ -1,126 +1,126 @@
 ===================
 ./perflab record/ 1
 ===================
-[21:42:01] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 1 threads
-[21:42:25] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.9188 seconds
-[21:42:37] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 12.2994 seconds
-[21:42:37] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 1 threads
-[21:43:01] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.8745 seconds
-[21:43:13] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 12.2613 seconds
-[21:43:13] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 1 threads
-[21:43:37] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.9136 seconds
-[21:43:50] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 12.3083 seconds
-[21:43:50] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 1 threads
-[21:44:14] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.8581 seconds
-[21:44:26] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 12.2881 seconds
-[21:44:26] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 1 threads
-[21:44:50] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.9019 seconds
-[21:45:02] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 12.2971 seconds
+[07:56:26] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 1 threads
+[07:56:45] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 18.6198 seconds
+[07:56:47] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 2.67126 seconds
+[07:56:47] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 1 threads
+[07:57:04] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5794 seconds
+[07:57:07] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 2.61057 seconds
+[07:57:07] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 1 threads
+[07:57:23] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5593 seconds
+[07:57:26] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 2.63066 seconds
+[07:57:26] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 1 threads
+[07:57:43] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5175 seconds
+[07:57:45] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 2.60662 seconds
+[07:57:45] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 1 threads
+[07:58:02] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.543 seconds
+[07:58:05] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 2.63149 seconds
 ===================
 ./perflab record/ 3
 ===================
-[21:45:02] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 3 threads
-[21:45:26] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.9089 seconds
-[21:45:35] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 9.20105 seconds
-[21:45:36] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 3 threads
-[21:46:00] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.9229 seconds
-[21:46:09] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 9.21238 seconds
-[21:46:09] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 3 threads
-[21:46:33] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.8926 seconds
-[21:46:42] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 9.21792 seconds
-[21:46:42] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 3 threads
-[21:47:06] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.913 seconds
-[21:47:15] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 9.1917 seconds
-[21:47:16] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 3 threads
-[21:47:39] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.9131 seconds
-[21:47:49] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 9.24535 seconds
+[07:58:05] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 3 threads
+[07:58:21] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5669 seconds
+[07:58:23] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 2.14608 seconds
+[07:58:24] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 3 threads
+[07:58:40] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5584 seconds
+[07:58:42] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 2.13217 seconds
+[07:58:42] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 3 threads
+[07:58:59] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5198 seconds
+[07:59:01] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 2.12265 seconds
+[07:59:01] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 3 threads
+[07:59:18] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5322 seconds
+[07:59:20] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 2.14695 seconds
+[07:59:20] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 3 threads
+[07:59:37] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5231 seconds
+[07:59:39] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 2.1452 seconds
 ===================
 ./perflab record/ 5
 ===================
-[21:47:49] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 5 threads
-[21:48:13] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.9048 seconds
-[21:48:23] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 10.1376 seconds
-[21:48:23] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 5 threads
-[21:48:47] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 24.1492 seconds
-[21:48:57] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 10.1489 seconds
-[21:48:58] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 5 threads
-[21:49:21] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.9101 seconds
-[21:49:32] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 10.1371 seconds
-[21:49:32] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 5 threads
-[21:49:56] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.923 seconds
-[21:50:06] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 10.161 seconds
-[21:50:06] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 5 threads
-[21:50:30] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.8963 seconds
-[21:50:40] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 10.1638 seconds
+[07:59:39] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 5 threads
+[07:59:55] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5228 seconds
+[07:59:58] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 2.68991 seconds
+[07:59:58] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 5 threads
+[08:00:15] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5411 seconds
+[08:00:18] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 2.68438 seconds
+[08:00:18] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 5 threads
+[08:00:34] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5662 seconds
+[08:00:37] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 2.70805 seconds
+[08:00:37] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 5 threads
+[08:00:54] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5642 seconds
+[08:00:56] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 2.70036 seconds
+[08:00:57] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 5 threads
+[08:01:13] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5123 seconds
+[08:01:16] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 2.72102 seconds
 ===================
 ./perflab record/ 9
 ===================
-[21:50:40] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 9 threads
-[21:51:04] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.8827 seconds
-[21:51:18] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 13.4693 seconds
-[21:51:18] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 9 threads
-[21:51:42] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.8964 seconds
-[21:51:55] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 13.5156 seconds
-[21:51:55] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 9 threads
-[21:52:19] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.9105 seconds
-[21:52:33] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 13.7335 seconds
-[21:52:33] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 9 threads
-[21:52:57] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.942 seconds
-[21:53:11] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 13.6137 seconds
-[21:53:11] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 9 threads
-[21:53:35] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.9073 seconds
-[21:53:48] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 13.5612 seconds
+[08:01:16] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 9 threads
+[08:01:33] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.553 seconds
+[08:01:37] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 4.25209 seconds
+[08:01:37] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 9 threads
+[08:01:54] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5993 seconds
+[08:01:58] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 4.2452 seconds
+[08:01:58] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 9 threads
+[08:02:15] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5136 seconds
+[08:02:19] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 4.42639 seconds
+[08:02:19] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 9 threads
+[08:02:36] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5486 seconds
+[08:02:40] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 4.27506 seconds
+[08:02:40] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 9 threads
+[08:02:57] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5201 seconds
+[08:03:01] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 4.21453 seconds
 ====================
 ./perflab record/ 12
 ====================
-[21:53:49] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 12 threads
-[21:54:13] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.9036 seconds
-[21:54:29] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 16.6031 seconds
-[21:54:29] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 12 threads
-[21:54:53] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.8775 seconds
-[21:55:10] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 16.8356 seconds
-[21:55:10] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 12 threads
-[21:55:34] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.9104 seconds
-[21:55:51] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 16.354 seconds
-[21:55:51] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 12 threads
-[21:56:15] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.9056 seconds
-[21:56:31] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 16.4755 seconds
-[21:56:31] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 12 threads
-[21:56:55] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.9093 seconds
-[21:57:12] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 16.42 seconds
+[08:03:01] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 12 threads
+[08:03:18] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5287 seconds
+[08:03:23] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 5.70516 seconds
+[08:03:23] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 12 threads
+[08:03:40] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5274 seconds
+[08:03:46] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 5.72738 seconds
+[08:03:46] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 12 threads
+[08:04:02] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.535 seconds
+[08:04:09] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 6.19763 seconds
+[08:04:09] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 12 threads
+[08:04:25] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5276 seconds
+[08:04:31] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 6.09661 seconds
+[08:04:32] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 12 threads
+[08:04:48] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5441 seconds
+[08:04:54] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 5.68402 seconds
+[08:04:54] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 18 threads
+[08:05:11] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.8344 seconds
+[08:05:20] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 9.07815 seconds
 ====================
 ./perflab record/ 18
 ====================
-[21:57:12] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 18 threads
-[21:57:36] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 24.1295 seconds
-[21:58:00] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 23.6336 seconds
-[21:58:00] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 18 threads
-[21:58:24] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 24.2124 seconds
-[21:58:48] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 23.7334 seconds
-[21:58:48] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 18 threads
-[21:59:12] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.9351 seconds
-[21:59:36] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 23.8304 seconds
-[21:59:36] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 18 threads
-[22:00:00] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.936 seconds
-[22:00:24] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 23.7123 seconds
-[22:00:24] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 18 threads
-[22:00:48] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.9176 seconds
-[22:01:12] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 23.805 seconds
+[08:05:20] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 18 threads
+[08:05:37] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5403 seconds
+[08:05:46] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 9.12461 seconds
+[08:05:46] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 18 threads
+[08:06:02] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5209 seconds
+[08:06:12] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 9.08957 seconds
+[08:06:12] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 18 threads
+[08:06:28] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5095 seconds
+[08:06:37] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 9.14969 seconds
+[08:06:38] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 18 threads
+[08:06:54] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.563 seconds
+[08:07:04] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 9.33181 seconds
 ====================
 ./perflab record/ 36
 ====================
-[22:01:12] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 36 threads
-[22:01:36] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.9034 seconds
-[22:02:34] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 58.0595 seconds
-[22:02:34] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 36 threads
-[22:02:58] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.9144 seconds
-[22:03:56] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 58.1807 seconds
-[22:03:56] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 36 threads
-[22:04:20] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.9118 seconds
-[22:05:19] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 58.163 seconds
-[22:05:19] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 36 threads
-[22:05:43] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.9046 seconds
-[22:06:41] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 58.0948 seconds
-[22:06:41] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 36 threads
-[22:07:05] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 23.914 seconds
-[22:08:03] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 58.1444 seconds
+[08:07:04] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 36 threads
+[08:07:20] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5714 seconds
+[08:07:46] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 25.8757 seconds
+[08:07:46] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 36 threads
+[08:08:03] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5134 seconds
+[08:08:29] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 25.8782 seconds
+[08:08:29] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 36 threads
+[08:08:45] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5304 seconds
+[08:09:11] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 25.9024 seconds
+[08:09:12] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 36 threads
+[08:09:28] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5112 seconds
+[08:09:54] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 25.8603 seconds
+[08:09:54] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:33: Record location = record, Using 36 threads
+[08:10:11] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:61: Data loaded in 16.5386 seconds
+[08:10:37] /home/ubuntu/xgboost-fast-hist-perf-lab/src/main.cc:71: Gradient histograms computed in 25.893 seconds
